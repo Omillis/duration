@@ -16,6 +16,7 @@ $ npm install --save @saadshahd/duration
 const duration = require('@saadshahd/duration');
 
 duration('1s'); // 1000
+duration('-1s'); // -1000
 duration('1m'); // 60000
 duration('1h'); // 3600000
 duration('1d'); // 86400000

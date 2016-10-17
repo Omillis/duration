@@ -16,7 +16,7 @@ const monthsRegex = generateElementRegex('M', 'month');
 const yearsRegex = generateElementRegex('Y', 'year');
 
 function generateElementRegex(elementChar, elementOptionalChars) {
-	return new RegExp(`(\\d+?)(?:(?:${elementChar}(?:\\W|\\b))|${elementOptionalChars})`);
+	return new RegExp(`(-?\\d+?)(?:(?:${elementChar}(?:\\W|\\b))|${elementOptionalChars})`);
 }
 
 function parseDurationString(durationString) {

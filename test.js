@@ -3,6 +3,7 @@ import fn from './';
 
 test(t => {
 	t.is(fn('1s'), 1000);
+	t.is(fn('-1s'), -1000);
 	t.is(fn('1sec'), 1000);
 	t.is(fn('1m'), 60000);
 	t.is(fn('1min'), 60000);
