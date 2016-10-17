@@ -1,6 +1,6 @@
 {
   "name": "@saadshahd/duration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get milliseconds from duration",
   "main": "index.js",
   "repository": {
