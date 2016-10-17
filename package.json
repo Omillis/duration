@@ -1,0 +1,46 @@
+{
+  "name": "@saadshahd/duration",
+  "version": "0.0.0",
+  "description": "Get milliseconds from duration",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:saadshahd/duration.git",
+    "type": "git"
+  },
+  "author": "Saad Shahd <dev.saad.shahd@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "duration",
+    "milliseconds",
+    "time",
+    "interval",
+    "duration"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "@saadshahd/seconds": "^1.0.1",
+    "@saadshahd/minutes": "^1.0.0",
+    "@saadshahd/hours": "^1.0.0",
+    "@saadshahd/days": "^1.0.0",
+    "@saadshahd/weeks": "^1.0.0",
+    "@saadshahd/months": "^1.0.0",
+    "@saadshahd/years": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ],
+    "rules": {
+      "curly": ["error", "multi-line"]
+    }
+  }
+}
